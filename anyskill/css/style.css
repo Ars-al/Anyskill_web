@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+ 
+
+}
+@font-face {
+    font-family: "myfont" ;
+    src: url(../assets/fonts/NeueMontreal-Regular.otf);
+}
+:root{
+    --black--:black; 
+    --white--:#fff; 
+    --red--:red; 
+    --orangered--: orangered; 
+    --gray--:gray; 
+    --lightgray--:lightgray; 
+    --green--:#34A853; 
+    --gold--: rgb(255, 196, 0); 
+    --black--: black; 
+
+}
+.fs-7{
+   font-size:  13px;
+}
+.fs-8{
+   font-size:  12px;
+}
+.fs-9{
+   font-size:  12px;
+   color: var(--gray--);
+}
+.fs-10{
+   font-size:  16px;
+   color: var(--gray--);
+}
+.fs-11{
+   font-size:  20px;
+   color: var(--gray--);
+}
+.fs-12{
+   font-size:  20px;
+}
+.fw-200{
+    font-weight: 200 !important;
+}
+.fw-300{
+    font-weight: 400 !important;
+}
+.fw-400{
+    font-weight: 200 !important;
+}
+.fw-500{
+    font-weight: 500 !important;
+}
+.fw-600{
+    font-weight: 700 !important;
+}
+.fw-700{
+    font-weight: 700 !important;
+}
+.fw-800{
+    font-weight: 800 !important;
+}
+.pointer{
+    cursor: pointer;
+    user-select: none;
+}
+.borderlight{
+    border: 1px solid var(--gray--);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 7px  15px ;
+}
+.input-field{
+    outline: none;
+}
+.black{
+    color: black;
+}
+.a-h2{
+    color: var(--green--);
+}
+.a-p{
+    color: var(--green--);
+}
+.a-color{
+    color: var(--gold--);
+}
+body{
+/* background-color: var(--red--); */
+font-family: "myfont" !important ;
+}
+
+/* header start */
+
+.btn-global {
+    color: #50BF72;
+}
+
+nav ul li {
+    color: black;
+}
+
+.fa-nav-icons {
+    color: rgb(14, 182, 14);
+}
+
+.nav-link {
+    font-size: 11px !important;
+}
+
+.nav-item .jobs {
+    color: #50BF72;
+}
+
+.container form .search-icon {
+    position: relative;
+}
+
+input {
+    border: none;
+}
+.fontsize2{
+    font-size: 15px;
+}
+.fa-nav-icons{
+    font-size: 21px;
+    color: var(--green--);
+    
+}
+.btn-global4{
+    padding: 8px 15px;
+    background-color: var(--green--);
+   border-radius: 10px;
+   color: var(--white--);
+   border: var(--green--);
+}
+.btn-global5{
+    padding: 5px 15px;
+    background-color: var(--red--);
+   border-radius: 5px;
+   color: var(--white--);
+   border: var(--green--);
+}
+.btn-global6{
+    padding: 5px 15px;
+    background-color: var(--white--);
+   border-radius: 5px;
+   color: var(--green--);
+   border: 1px solid var(--green--) !important ;
+}
+.btn-global7{
+    padding: 5px 15px;
+    background-color: var(--white--);
+   color: var(--green--);
+   border: var(--green--);
+}
+.btn-global8{
+     padding: 5px 15px; 
+    background-color: var(--white--);
+   color: var(--green--);
+   border: var(--green--);
+
+}
+
+/* header end */
+
+
+/*  cards start */
+
+.rel-1{
+    position: relative;
+}
+.star{
+    position: absolute;
+    color: yellow;
+}
+.page-item{
+    padding: 0px 5px;
+    border-radius: 15px;
+}
+.card-body:hover{
+    color: var(--black--);
+}
+/*  cards end */
+
+
+/*  description start */
+
+.para--2{
+    color: gray;
+}
+.h6color{
+    color: #34A853
+}
+.para--02{
+    color: gray;
+}
+.para-002{
+    color: var(--orangered--);
+    font-size: 15px;
+}
+.sma{
+    color:var(--red--) ;
+    font-size: 12px;
+}
+
+.formedit{
+    border: none;
+}
+.formedit:focus{
+    box-shadow: none;
+}
+.btn-global0{
+    padding: auto;
+   border: 1px solid var(--green--);
+   border-radius: 5px;
+   color: var(--green--);
+}
+.btn-global0:focus{
+    box-shadow: none;
+}
+.btn-global0:hover{
+    color: var(--green--);
+}
+.btn-global{
+    padding:8px 15px;
+   border: 2px solid var(--lightgray--); 
+   border-radius: 5px;
+}
+.btn-global1{
+    padding:auto;
+    background-color: var(--green--);
+   border-radius: 5px;
+}
+.btn-global1:focus{
+    box-shadow: none;
+}
+.fontsize{
+    font-size: 16px;
+}
+.fontsize1{
+    font-size: 18px;
+}
+/*  description end */
+
+
+/*  footer start */
+
+
+/*  footer end */
+
+
+/*  payment start */
+
+.btn-global10{
+    padding: 8px 15px;
+   color: var(--green--);
+   border: none;
+   background-color:  var(--white--);
+}
+.btn-global11{
+    padding: 5px 15px; 
+   background-color: var(--white--);
+  color: var(--gray--);
+  border: none
+
+}
+
+/*  payment end */
+
+.mini-tab{
+    /* padding: 0px 10px;
+    border: 1px solid var(--gray--);
+     */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+.mini-tabs{
+    padding: 15px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: var(--white--);
+    box-shadow: rgba(0, 0, 0, 0.4);
+    box-shadow: 3px 5px 35px 5px hsla(0,0%,81.2%,.413)!important;
+    cursor: pointer;
+    user-select: none;
+}
+.mini-tabs-active{
+    padding: 15px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: var(--green--);
+    color: var(--white--);
+    box-shadow: 3px 5px 35px 5px hsla(0,0%,81.2%,.413)!important;
+    cursor: pointer;
+    user-select: none;
+}
+#flexCheckIndeterminate{
+    accent-color: green !important;
+}
+.testingtbn{
+    padding: 15px;
+    background-color: transparent;
+    border: 3px dashed black;
+}
